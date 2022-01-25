@@ -77,6 +77,19 @@ blockquote {
 }
 
 /* Navbar */
+
+.container {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.collapse .navbar-collapse{
+  margin: 0px;
+  padding: 0px;
+}
+
+
 .navbar-brand-img{
   border-radius: 10px;
   width: 50px;
@@ -177,12 +190,23 @@ blockquote {
 }
 
 }
+ @media (min-width: 416px) {
+  .amit-img{
+    background-color: #222;
+    background-image: url(../img/iphone-gc5f99166c_1920.jpg);
+    background-repeat: no-repeat;
+    /* height: 160vh; */
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+} 
 
-@media (min-height: 600px) and (min-width: 1920px) {
+/* @media (min-height: 600px) and (min-width: 1920px) {
   #infinite {
     background-size: cover;
   }
-}
+} */
 
 @media (min-height: 830px) {
   #infinite {
